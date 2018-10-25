@@ -100,8 +100,8 @@ This also supports multiple actions.
 
 ```workflow
 action "action-filter" {
-  uses = "actions/bin/filter"
-  args = ["action", "opened|synchronized"]
+  uses = "actions/bin/filter@18d4c9c"
+  args = ["action", "opened|synchronize"]
 }
 ```
 
